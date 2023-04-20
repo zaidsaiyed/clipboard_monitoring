@@ -38,8 +38,7 @@ def save_file_dialog():
     main_dir = os.path.dirname(os.path.abspath(__file__))
     
     file_input = fd.asksaveasfilename(title="Save Clipboard History As", filetypes=filetypes, defaultextension="", initialfile=default_filename, initialdir=main_dir)
-    
-    
+    # if user cancels save dialog, file_input will be empty string
     file_name = file_input[:-4] + f"_{now}.txt"
     return file_name     
 
