@@ -66,7 +66,6 @@ if __name__ == "__main__":
     monitor_thread = threading.Thread(target=clipboard_monitor, args=(text_box, clipboard_history), daemon=True)
     monitor_thread.start()
 
-    # Handle the case where the user closes the window
     def on_closing():
         save_to_file(clipboard_history)
         root.destroy()
