@@ -14,4 +14,4 @@ pip install tkinter pyperclip
 `python clipboard_monitor.py` 
 2.  The program window will appear, displaying the current contents of the clipboard (if any).
 3.  Copy some text to the clipboard (e.g. using Ctrl+C).
-4.  The new clipboard contents will be displayed in the text box, and a notification sound will be played. The program window will also be brought up to the front.
+4.  The new clipboard contents will be displayed in the text box, and a notification sound will be played. The program window will also be brought to the front.
