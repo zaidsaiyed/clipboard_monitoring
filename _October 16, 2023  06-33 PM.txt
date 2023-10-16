@@ -1,0 +1,200 @@
+send test again
+--------------------------------------------------
+okay here you go again 
+--------------------------------------------------
+python running file
+--------------------------------------------------
+aaya 
+--------------------------------------------------
+ji bhai
+--------------------------------------------------
+okay lets go gibe me a min
+--------------------------------------------------
+okay
+--------------------------------------------------
+aaya ????
+--------------------------------------------------
+yesssssss
+--------------------------------------------------
+okay 
+--------------------------------------------------
+From inside an action method, you can transfer a model to a view by
+Question 1 options:
+
+storing it in the ViewData property and returning that property
+
+storing it in the ViewBag property and returning that property
+
+passing it to the View() method and returning the result
+
+passing it to the RedirectToAction() method and returning the result
+
+--------------------------------------------------
+1,2,3
+--------------------------------------------------
+ek option hi hoga
+--------------------------------------------------
+RedirectToAction()
+--------------------------------------------------
+okay
+--------------------------------------------------
+To nest one layout inside another, the containing layout should
+Question 2 options:
+
+duplicate all of the code of the nested layout
+
+set its Layout property to the nested layout
+
+always be named _ContainingLayout
+
+use the @model directive
+--------------------------------------------------
+set its Layout property to the nested layout
+
+--------------------------------------------------
+public class HomeController : Controller
+{
+    public IActionResult Index()
+    {
+        ViewBag.Description = "Gibson Les Paul";
+        ViewBag.Price = 699.99;
+        return View();
+    }
+}
+
+
+Refer to Code Example 2-1. Which file stores the view that's displayed by the Index() method?
+Question 3 options:
+
+Views/Index/Home.cshtml
+
+Views/Home/Index.cshtml
+
+Views/Index.cshtml
+
+Home/Index/View.cshtml
+
+--------------------------------------------------
+Views/Home/Index.cshtml
+--------------------------------------------------
+An intranet
+Question 4 options:
+
+is a local area network (LAN)
+
+connects computers that are near each other
+
+consists of many wide area networks (WANs)
+
+All of the above
+
+A and B only
+--------------------------------------------------
+A and B only
+--------------------------------------------------
+In the Startup.cs file, what does the following code do?
+public void ConfigureServices(IServiceCollection services)
+{
+    ...
+    services.AddDbContext<CustomerContext>(options =>
+        options.UseSqlServer(
+            Configuration.GetConnectionString("Customer")));
+}
+Question 5 options:
+
+It sets up dependency injection to inject a CustomerContext object into any controllers that need it.
+
+It specifies that EF Core should use a SQL Server database.
+
+It reads the connection string for the database from a file.
+
+All of the above
+
+B and C only
+--------------------------------------------------
+All of the above
+--------------------------------------------------
+A CSS style sheet
+Question 6 options:
+
+lets you specify the default Razor layout
+
+provides a way to store HTML elements that are unique to a web page
+
+provides a way to store CSS formatting for multiple pages in a single file
+
+provides a way to store HTML elements for multiple pages in a single file
+--------------------------------------------------
+provides a way to store CSS formatting for multiple pages in a single file
+--------------------------------------------------
+What type of validation isn't essential but can reduce workload on the server and decrease the necessity of multiple round trips to the server?
+Question 7 options:
+
+server-side validation
+
+client-side validation
+
+query-based validation
+
+database validation
+--------------------------------------------------
+client-side validation
+--------------------------------------------------
+To begin encapsulating code for data access, it's often helpful to begin by adding extention methods to the interface named
+Question 8 options:
+
+IRunnable<T>
+
+ILINQable<T>
+
+IEnumerable<T>
+
+IQueryable<T>
+--------------------------------------------------
+IQueryable<T>
+--------------------------------------------------
+When you run an app with debugging and it encounters a breakpoint, the app
+Question 9 options:
+
+enters break mode
+
+stops debugging
+
+logs a message to the Output window
+
+executes the remaining lines in the current method
+--------------------------------------------------
+enters break mode
+--------------------------------------------------
+The Exception Helper dialog is displayed if you run an app
+Question 10 options:
+
+without debugging and it has syntax errors
+
+without debugging and an exception occurs
+
+with debugging and it has syntax errors
+
+with debugging and an exception occurs
+--------------------------------------------------
+with debugging and an exception occurs
+--------------------------------------------------
+Which of the following classes would you use on a div element that contains a label and a control?
+Question 11 options:
+
+row
+
+form-group
+
+form-control
+
+form-horizontal
+--------------------------------------------------
+form
+--------------------------------------------------
+?
+--------------------------------------------------
+form-group
+--------------------------------------------------
+? pura likh 
+--------------------------------------------------
