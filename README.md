@@ -8,7 +8,6 @@ This is a simple Python program that monitors the system clipboard for changes a
 ```
 pip install tkinter pyperclip
 ```
-
 ## Usage
 
 1.  Run the program by executing the `clipboard_monitor.py` script using Python:
