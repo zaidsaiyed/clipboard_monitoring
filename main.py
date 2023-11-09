@@ -1,10 +1,22 @@
-import os
+import os, openai, json
 import tkinter as tk
 import tkinter.scrolledtext as st
 import time, datetime
 import threading
 import pyperclip
 import tkinter.filedialog as fd
+
+openai.api_key = json.load(open("key.json"))["openAiKey"]
+def openai_api(prompt):
+    # Use the openai API to generate a response
+    response = openai.Completion.create(
+        engine="text-davinci-002",
+        prompt=f"{prompt}",
+        max_tokens=1024,
+        temperature=0.5
+    )
+    # Return the generated response
+    return response["choices"][0]["text"]
 
 def clipboard_monitor(text_box, clipboard_history):
     # Initialize last_value to the current value of the clipboard
